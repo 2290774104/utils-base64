@@ -1,19 +1,12 @@
 <template>
   <picture-base64 />
+  <base64-picture />
 </template>
 
-<script lang="ts">
-import { Options, Vue } from 'vue-class-component';
-import PictureBase64 from '@/components/picture-base64.vue'
-
-@Options({
-  components: {
-    PictureBase64
-  },
-})
-export default class App extends Vue {}
+<script lang="ts" setup>
+import PictureBase64 from "@/components/picture-base64.vue";
+import Base64Picture from "@/components/base64-picture.vue";
 </script>
 
 <style lang="scss">
-
 </style>
