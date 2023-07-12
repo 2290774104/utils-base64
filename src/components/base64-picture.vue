@@ -1,5 +1,5 @@
 <template>
-  <el-row class="picture-base64">
+  <el-row class="base64-picture">
     <el-col :span="12" class="picture-input">
       <p>
         base64输入
@@ -68,9 +68,9 @@ const handlerDownload = () => {
 </script>
 
 <style lang="scss">
-.picture-base64 {
+.base64-picture {
   padding: 20px;
-  height: 600px;
+  height: 350px;
 
   .picture-upload {
     height: 250px;
